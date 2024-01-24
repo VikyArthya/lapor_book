@@ -116,9 +116,9 @@ class _ListItemState extends State<ListItem> {
                           : widget.laporan.status == 'Process'
                               ? warnaStatus[1]
                               : warnaStatus[2],
-                      border: const Border(
-                        right: BorderSide(width: 2),
-                      ),
+                      // border: const Border(
+                      //   right: BorderSide(width: 2),
+                      // ),
                       borderRadius: const BorderRadius.only(
                         bottomLeft: Radius.circular(8),
                       ),
